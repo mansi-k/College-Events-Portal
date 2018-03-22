@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+table.headtable {
+	color:#000 !important;	
+	border-collapse:collapse !important;
+	background-color: #FFFFFF !important;
+	border:solid #666 5px !important;
+	padding:10px !important;
+	position:relative;
+}
+
+.headtable td, .headtable th
+{
+	text-align:left !important;
+	border: solid #666 1px !important;
+	padding:10px !important;
+}
+
+.headtable th{
+	border-bottom:solid #666 5px !important;
+	font-variant:small-caps !important;
+	font-size:16px !important;
+	text-align:center !important;
+	background: #F78824;
+	color:#fff;
+}

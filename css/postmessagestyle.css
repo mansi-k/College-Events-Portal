@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.comments {
+	background-color: #FFB366; !important;
+	padding:20px !important;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.7) !important;
+	border-radius:25px !important;
+}
+
+div.comments:target {
+	background-color:#ff704d !important;
+}
+
+div.titles {
+	line-height: 1.5 !important;
+}
+
+div.msg {
+	text-indent:70px !important;
+}
+
+/*div.delrep table.loggedin {
+	padding:0;
+}*/
+
+div.delrep div.dropup {
+	position: relative !important;
+    display: inline-block !important;
+	float:right !important;
+}
+
+.dropup .loggedin{
+	min-width:200px !important;
+	width:100% !important;
+} 
+
+div.delrep div.dropdown-menu {
+    position: absolute !important;
+    background-color: #f9f9f9 !important;
+    width: 400px !important;
+	min-width:210px !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) !important;
+	z-index:7 !important;
+}
+
+div.delrep textarea {
+	width:100%;
+	padding:10px !important;
+	height:200px !important;
+	border:solid #e1e1e1 1px !important;
+	border-radius:3px !important;
+	
+	font-family:Verdana, Geneva, sans-serif !important;
+	font-size:16px !important;
+	background:#f9f9f9 !important;
+	transition-duration:0.5s !important;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.5) !important;
+}
+
+div.delete, div.edit, div.reply{
+	padding-right:10px !important;
+	padding-left:10px !important;
+	float:right !important;
+}
+
+div.delrep {
+	display:inline-block !important;
+}
+
+div.delrep .loggedin{
+	width:100% !important;
+}
+
+span.title{
+	text-shadow: 1px 1px #999;
+	font-size:16px !important;
+	color:#fff !important;
+	font-weight:bold;
+}
+
+.btn-default {
+	background:#FFF !important;
+	padding:3px;
+	box-shadow: 2px 2px 2px rgba(1,0,0,0.9) !important;
+	color:#FF3300;
+}

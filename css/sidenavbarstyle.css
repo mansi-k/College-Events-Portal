@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* make sidebar nav vertical */ 
+	 
+	.side1 {
+	  font-variant: small-caps;
+	  margin-left:25px;
+	  font-size: 22px;
+	  font-family: "Times New Roman", Times, serif;
+	  color:orange;
+	  display:block !important;
+	  float:none !important; 
+	  clear:both;
+	  }
+
+	 
+@media (min-width: 1301px) {
+.sidebar-nav {
+	min-width:23% !important;
+	width:100%;
+	padding-left:4% !important;
+	padding-right:10px !important;
+	padding-top:10px !important;
+}
+  
+ .affix {
+      top:55px !important;
+	  min-width:22% !important;
+	  width:22%;
+	  padding-left:0% !important;
+	  margin-left:15px !important;
+  }
+  .ic .col-sm-4{
+		width:50px !important;
+		padding-bottom:10px;
+	}
+	.ic {
+		padding:2%;
+		margin-left:0px;
+	}
+}
+.sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none !important;
+  }
+   .nav-divider {
+   	visibility:visible;
+	}
+  .sidebar-nav .navbar .side {
+    float: none !important;
+    display: block !important;
+	clear:both;
+  }
+  .sidebar-nav .navbar .side a {
+    padding-top: 15px !important;
+    padding-bottom:15px !important;
+	padding-left:25px !important;
+	padding-right:25px !important;
+	float:none !important;
+  }
+ 
+@media (min-width: 768px) {
+	.ic .col-sm-4{
+		width:50px !important;
+		padding-bottom:10px;
+	}
+	.ic {
+		padding:2%;
+		margin-left:0px;
+	}
+}   
+@media (max-width: 768px) {
+.navbar-collapse .collapse .sidebar-navbar-collapse {
+	width:auto !important;
+	padding-left:2% !important;
+	padding-right:2% !important;
+	padding-top:2% !important;
+	padding-bottom:0px !important;
+}
+.affix {
+      top:55px !important;
+	  min-width:23% !important;
+	  padding-left:2% !important;
+	  margin-left:2% !important;
+	  visibility:hidden;
+  }
+  	
+}
+
+@media (max-width: 1300px) {
+.sidebar-nav {
+	width:auto% !important;
+	min-width:23% !important;
+	margin-left:2%;
+	padding-right:2% !important;
+	margin-top:10px !important;
+	padding-bottom:0px !important;
+}
+.affix {
+      top:55px !important;
+	  width:24% !important;
+	  padding-left:0% !important;
+	  margin-left:1% !important;
+	  margin-top:0px !important;
+  }
+}
+ 

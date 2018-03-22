@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login-form
+{
+	margin-top:5% !important;
+}
+table.loggedin
+{
+	padding : 35px !important;
+	position:relative;
+	width:50%;
+	min-width:230px;
+	background-color: #FFFFFF !important;
+	border:solid #dcdcdc 1px !important;
+	box-shadow: 0px 0px 5px #ff6600 !important;
+}
+table.loggedin tr:first-child, .loggedin td
+{
+	padding:20px !important;
+}
+
+table.loggedin tr td input, select.recievers, select.logincat
+{
+	width:100% !important;
+	height:45px !important;
+	border:solid #e1e1e1 1px !important;
+	border-radius:3px !important;
+	padding-left:10px !important;
+	font-family:Verdana, Geneva, sans-serif !important;
+	font-size:16px !important;
+	background:#f9f9f9 !important;
+	transition-duration:0.5s !important;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.5) !important;
+	
+}
+
+table.loggedin tr td input[type="radio"]{
+	width:100% !important;
+	height:25px !important;
+	padding-left:10px !important;
+	font-family:Verdana, Geneva, sans-serif !important;
+	font-size:16px !important;
+	background:#f9f9f9 !important;
+	transition-duration:0.5s !important;
+	border:none !important;
+	box-shadow:none !important;
+}
+
+table.loggedin tr td button
+{
+	width:100% !important;
+	height:45px !important;
+	border:0px !important;
+	background: #FF6600 !important;
+	background:-moz-linear-gradient(top, #595959 , #515151) !important;
+	border-radius:3px !important;
+	box-shadow: 2px 2px 2px rgba(1,0,0,0.9) !important;
+	color:#f9f9f9 !important;
+	font-family:Verdana, Geneva, sans-serif !important;
+	font-size:18px !important;
+	font-weight:bold !important;
+}
+table.loggedin tr td a
+{
+	text-decoration:none !important;
+	color:#00a2d1 !important;
+	font-family:Verdana, Geneva, sans-serif !important;
+	font-size:18px !important;
+}
+textarea {
+	width:100% !important;
+	height:200px !important;
+	border:solid #e1e1e1 1px !important;
+	border-radius:3px !important;
+	padding-left:0px !important;
+	font-family:Verdana, Geneva, sans-serif !important;
+	font-size:16px !important;
+	background:#f9f9f9 !important;
+	transition-duration:0.5s !important;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.5) !important;
+}
+
+textarea[placeholder]{
+	padding:20px !important;
+}

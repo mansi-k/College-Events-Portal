@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.eventtable{
+	padding:0px !important;
+	position:relative !important;
+	max-width:650px !important;
+	min-width:220px !important;
+}
+
+#parttable tr {
+	border: solid 1px !important;
+}
+
+#parttable {
+	border-radius:10px;
+}
+
+#event{
+	text-align:center !important;
+}
+
+table.subtable
+{
+	float:left !important;
+	color:#000 !important;	
+	border-collapse:collapse !important;
+	background-color: #FFFFFF !important;
+	border-right:solid #666 5px !important;
+	border-top:solid #666 5px !important;
+	border-bottom:solid #666 5px !important;
+}
+.subtable td, .subtable th
+{
+	text-align:left !important;
+	border-bottom: solid #666 1px !important;
+	padding:10px !important;
+	min-width:150px !important;
+}
+ #row_name th{
+ 	border-left:solid #666 5px !important;
+}
+.subtable #event {
+	border-bottom:solid #666 5px !important;
+}	
+ .subtable th{
+ 	font-variant:small-caps !important;
+	background: #F78824;
+	color:#FFFFFF;
+ }	
+ 
+ .subtable #part {
+ 	padding-top:14px !important;
+	padding-bottom:14px !important;
+}
+
+button.partbtn{
+	padding:4px !important;
+	border:0px !important;
+	color:#FFFFFF !important;
+	background:rgba(12,45,78,11) !important;
+	background:-moz-linear-gradient(top, #595959 , #515151);
+	box-shadow: 2px 2px 2px rgba(1,0,0,0.9) !important;
+}
+
+.btn-warning a {
+	color:#FFFFFF !important;
+	text-decoration:none !important;
+}
+
+h1{
+	text-transform:capitalize !important;
+}
+.festtable tr td {
+	padding:10px;
+	border:1px solid #666666;
+}
+.festtable tr th {
+	padding:10px;
+	border:1px solid #666666;
+	background:#FF6600;
+	color:#FFFFFF;
+	font-size:16px;
+}
+.festtable {
+	border:5px solid #666666;
+}
+	
